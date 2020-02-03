@@ -5,7 +5,7 @@
 3. 结果为dict，pickle文件默认储存在keyWords
 4. 直接运行即可
 ## toolsT.py
-1. 多线程随机选取用户进行判断，可以使用代理，每个代理对应MAXTHREADS个线程，默认为10。在proxy中添加代理
+1. 多线程随机选取用户进行判断，总量达到totalNum时停止。可以使用代理，每个代理对应MAXTHREADS个线程，默认为10。在proxy中添加代理
 2. 访问过的活跃用户，爱好者的uid分别以List形式储存在pickle文件中，为ActiveList和ThpList，运行情况记录在Out.txt
 3. 直接运行即可
 ## toolsC.py
