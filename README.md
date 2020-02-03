@@ -1,6 +1,6 @@
 # about_touhou_in_Bili
 ## getKey.py
-1. 用于获得uidList中用户的所有投稿的tag，和每个tag的出现次数
+1. 用于获得uidList中用户的所有投稿的tag，和每个tag的出现次数,并保存
 2. 使用aiohttp库进行并发，并发数为MAXTHREADS，默认为10
 3. 结果为dict，pickle文件默认储存在keyWords
 4. 直接运行即可
