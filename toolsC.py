@@ -338,5 +338,7 @@ def startC():
     return
 
 if __name__ == "__main__":
-   startC()
+    path=
+    get_total_uid(path)
+    startC()
 
