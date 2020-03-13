@@ -114,7 +114,7 @@ def getJsonUrl(url,proxy):
     try:
         headers = {'User-Agent':random.choice(user_agents),"X-Requested-With": "XMLHttpRequest"}
         try:
-            req=requests.get(url,headers=headers,timeout=5)
+            req=requests.get(url,headers=headers,timeout=5,proxies=proxy)
         except Exception:
             print('Requests error,url={url},proxy={proxy}'.format(url=url,proxy=proxy))
             return None
